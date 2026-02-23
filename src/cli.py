@@ -1,5 +1,7 @@
 from __future__ import annotations
 import argparse
+import pandas as pd
+import os
 from typing import Dict, List
 
 from .models import TraitScheme
@@ -63,6 +65,7 @@ def main() -> None:
     parser.add_argument("--initial-traits", default="", help='Example: "Goblin,Clan"')
     parser.add_argument("--locked", default="", help='Example: "Knight"')
     parser.add_argument("--banned", default="", help='Example: "Wizard,Witch"')
+    parser.add_argument("--export", default="", help='Export results to CSV. Example: "results/top_teams.csv"')
 
     args = parser.parse_args()
 
@@ -86,6 +89,15 @@ def main() -> None:
         locked_cards=locked_cards,
         banned_cards=banned_cards,
     )
+    
+    if args.export:
+        export_path = args.export
+        parent = os.path.dirname(export_path)
+        if parent:
+            os.makedirs(parent, exist_ok=True)
+
+        result.to_csv(export_path, index=False)
+        print(f"\n✅ Exported results to: {export_path}")
 
     best = result.iloc[0]
     active_traits = [t for t, v in best["per_trait_bonus"].items() if v > 0]
