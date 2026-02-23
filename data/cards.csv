@@ -1,0 +1,27 @@
+card,elixir,base_power,traits
+Knight,2,6,Noble;Juggernaut
+Archers,2,6,Clan;Ranger
+Goblins,2,6,Goblin;Assassin
+Spear Goblins,2,6,Goblin;Blaster
+Barbarians,2,6,Clan;Brawler
+Skeleton Dragons,2,6,Undead;Ranger
+Wizard,2,6,Fire;Mage
+Musketeer,3,8,Noble;Blaster
+Valkyrie,3,8,Clan;Juggernaut
+P.E.K.K.A,3,8,Ace;Avenger
+Prince,3,8,Noble;Brawler
+Giant Skeleton,3,8,Undead;Brawler
+Dart Goblin,3,8,Goblin;Ranger
+Electro Giant,3,8,Electric;Avenger
+Executioner,3,8,Ace;Blaster
+Witch,4,10,Undead;Avenger
+Baby Dragon,4,10,Fire;Blaster
+Princess,4,10,Noble;Ranger
+Electro Wizard,4,10,Electric;Mage
+Mega Knight,4,10,Ace;Brawler
+Royal Ghost,4,10,Undead;Assassin
+Bandit,4,10,Ace;Avenger
+Goblin Machine,4,10,Goblin;Juggernaut
+Skeleton King,5,12,Undead;Juggernaut
+Golden Knight,5,12,Noble;Assassin
+Archer Queen,5,12,Clan;Avenger
