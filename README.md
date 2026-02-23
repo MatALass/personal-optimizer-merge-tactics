@@ -1,7 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Prototype-orange)
 
-# Merge Tactics --- Deck Optimizer (Synergy Pairs)
+# Merge Tactics — Deck Optimizer (Synergy Pairs)
 
 A Python prototype inspired by **Clash Royale-style deck building** and
 **auto-battler synergy systems**.
@@ -10,9 +10,11 @@ The objective is to automatically build the strongest possible team
 (deck) by maximizing the number of **activated traits** --- meaning
 traits that appear **at least twice** in a team.
 
-The optimizer supports optional gameplay constraints such as: - Locked
-cards (must be included) - Banned cards (must be excluded) - Maximum
-elixir budget - Pre-activated starting traits
+The optimizer supports optional gameplay constraints such as: 
+- Locked cards (must be included)
+- Banned cards (must be excluded)
+- Maximum elixir budget
+- Pre-activated starting traits
 
 ------------------------------------------------------------------------
 
@@ -138,7 +140,7 @@ You can expand the card pool by simply editing the CSV file.
 ## Project Structure
 
 ```
-personal-game-merge-tactics/
+personal-optimizer-merge-tactics/
 ├── data/
 │   └── cards.csv
 ├── src/
