@@ -137,9 +137,19 @@ You can expand the card pool by simply editing the CSV file.
 
 ## Project Structure
 
-personal-game-merge-tactics/ ├── data/ │ └── cards.csv ├── src/ │ ├──
-models.py │ ├── io_data.py │ ├── scoring.py │ ├── search.py │ └── cli.py
-├── requirements.txt └── README.md
+```
+personal-game-merge-tactics/
+├── data/
+│   └── cards.csv
+├── src/
+│   ├── models.py
+│   ├── io_data.py
+│   ├── scoring.py
+│   ├── search.py
+│   └── cli.py
+├── requirements.txt
+└── README.md
+```
 
 ------------------------------------------------------------------------
 
